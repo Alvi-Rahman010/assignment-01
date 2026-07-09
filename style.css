@@ -7,6 +7,10 @@
 img{
     max-width: 100%;
 }
+
+.around{
+    padding: 80px 8%;
+}
 .nav-01{
     display: flex;
     justify-content: space-between;
@@ -67,4 +71,32 @@ ul li a{
 .banner-body H1{
     font-size: 70px;
     margin-top: 60px;
+}
+.hhh1{
+     display: flex;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.container {
+    width: 80%;           
+    margin: 0 auto;       
+    text-align: center;   
+}
+.card {
+    display: inline-block; 
+    width: 45%; 
+    margin: 2%; 
+    border: 1px solid #ccc;
+    border-radius: 8px;    
+    text-align: left;      
+    vertical-align: top;   
+}
+.card img {
+    width: 100%;           
+    border-top-left-radius: 8px;  
+    border-top-right-radius: 8px;
+}
+.card h3, .card p {
+    padding: 5px 10px;
 }
