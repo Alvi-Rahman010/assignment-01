@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     font-family: "Open Sans", sans-serif;
-    
 }
 img{
     max-width: 100%;
@@ -18,7 +17,6 @@ img{
     max-width: 1200px;
     margin: auto;
     padding: 13px 8%;
-    
 }
 ul{
     display: flex;
@@ -27,7 +25,6 @@ ul{
     gap: 10px;
     align-items: center;
     gap: 24px;
-    
 }
 ul li a{
     text-decoration: none;
@@ -51,7 +48,6 @@ ul li a{
     display: grid;
     align-items: center;
     justify-content: center;
-    
 }
 .banner-body{
     color: white;
@@ -64,7 +60,6 @@ ul li a{
 }
 .banner-body button{
     margin-top: 30%;
-    width: 20%;
     width: 188px;
     height: 48px;
 }
@@ -73,30 +68,178 @@ ul li a{
     margin-top: 60px;
 }
 .hhh1{
-     display: flex;
+    display: flex;
     margin-top: 80px;
     margin-bottom: 30px;
     justify-content: center;
 }
 .container {
-    width: 80%;           
-    margin: 0 auto;       
-    text-align: center;   
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
 }
 .card {
-    display: inline-block; 
-    width: 45%; 
-    margin: 2%; 
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
     border: 1px solid #ccc;
-    border-radius: 8px;    
-    text-align: left;      
-    vertical-align: top;   
+    border-radius: 8px;
+    text-align: left;
+    vertical-align: top;
 }
 .card img {
-    width: 100%;           
-    border-top-left-radius: 8px;  
+    width: 100%;
+    border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
 .card h3, .card p {
     padding: 5px 10px;
+}
+.pricing-sub{
+    text-align: center;
+    color: gray;
+    margin-bottom: 50px;
+}
+
+.pricing-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 0 8%;
+}
+
+.price-card{
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 30px;
+    width: 280px;
+    text-align: left;
+}
+
+.price-card-dark{
+    background-color: #0f172a;
+    color: white;
+}
+
+.plan-name{
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.price-card-dark .plan-name{
+    color: #93c5fd;
+}
+
+.price{
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.price-note{
+    font-size: 13px;
+    color: gray;
+    margin-bottom: 15px;
+}
+
+.price-list{
+    list-style: none;
+    margin: 20px 0;
+    display: block;
+}
+
+.price-list li{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 12px;
+    padding-left: 15px;
+    position: relative;
+}
+
+.price-list li::before{
+    content: "•";
+    color: #1D4ED8;
+    position: absolute;
+    left: 0;
+}
+.price-card-dark .price-list li::before{
+    color: #60a5fa;
+}
+
+.price-card .btn{
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.btn-outline{
+    background-color: white;
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+}
+
+.price-card-dark .btn-outline{
+    background-color: white;
+    color: #0f172a;
+}
+.newsletter{
+    background-color: #ce6c11;
+    margin-top: 100px;
+    padding: 70px 8%;
+    text-align: center;
+    color: white;
+}
+
+.newsletter-body h2{
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.newsletter-body p{
+    font-size: 16px;
+    color: #dbe4ff;
+    margin-bottom: 30px;
+}
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.newsletter-form input{
+    width: 280px;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    padding: 0 15px;
+    font-size: 16px;
+}
+.newsletter-form .btn{
+    background-color: white;
+    color: #1D4ED8;
+}
+.footer{
+    background-color: #0f172a;
+    color: #94a3b8;
+    padding: 25px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    font-size: 14px;
+}
+
+.footer-links{
+    gap: 20px;
+}
+
+.footer-links a{
+    color: #94a3b8;
+}
+
+.footer-links a:hover{
+    color: white;
 }
